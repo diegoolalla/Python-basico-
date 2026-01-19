@@ -1,33 +1,3 @@
 # Python-basico-
-Tarea de la asignatura python basico 
-Practica del módulo: PROGRAMACIÓN PYTHON titulada “ADIVINA EL NÚMERO”
-Mediante el desarrollo del siguiente juego en Python deberá utilizarse todo lo
-aprendido en clase valorando la correcta decisión en el uso de los algoritmos.
-Se pretende realizar mediante el lenguaje Python un programa que simule un juego de
-adivinanza.
-Al comenzar el juego y durante el desarrollo del mismo las opciones que se muestran
-hasta elegir la opción salir son:
-1. Partida modo solitario
-2. Partida 2 Jugadores
-3. Estadística
-4. Salir
-Modo solitario supone que el número a adivinar es generado aleatoriamente por el
-ordenador.
-Modo 2 Jugadores: primero se escribe un número a adivinar y luego un segundo jugador
-intenta adivinarlo.
-El número a adivinar debe ser entre 1 y 1000.
-Tanto la opción 1 como la opción 2 tendrán el siguiente submenú para elegir la
-dificultad
-1. Fácil (20 intentos)
-2. Medio (12 intentos)
-3. Difícil (5 intentos)
-En ambos menús debe chequearse que la opción elegida es válida y avisar en caso
-contrario.
-Si se adivina el número se gana la partida y se vuelve al menú principal, sino se indica
-si el número buscado es mayor o menor.
-Si se supera el número de intentos se pierde y se vuelve al menú principal.
-Se gane o se pierda se pide el nombre del jugador y se guarda esta información junto
-con el resultado de la partida en un fichero Excel.
-La opción estadística nos mostrara los datos almacenados en Excel.
-Mejoras como numero oculto, elegir dificultad en relación al número a adivinar,
-estadísticas filtradas por usuario…harán que la nota sea máxima.
+
+La tarea de Python básico consiste en desarrollar un juego en Python titulado “Adivina el número” que ponga en práctica lo aprendido en clase mediante un programa que simule un juego de adivinanza con menús y validación de opciones. Al iniciar el juego y durante su ejecución debe mostrarse un menú principal que se repite hasta elegir salir, con estas opciones: 1) Partida modo solitario, 2) Partida 2 jugadores, 3) Estadística y 4) Salir; en el modo solitario el número a adivinar lo genera aleatoriamente el ordenador y en el modo 2 jugadores primero un jugador introduce el número a adivinar y después el segundo jugador intenta acertarlo. En ambos casos, el número objetivo debe estar entre 1 y 1000, y tanto en la opción 1 como en la 2 debe aparecer un submenú de dificultad con Fácil (20 intentos), Medio (12 intentos) y Difícil (5 intentos), comprobando siempre que la opción elegida sea válida y mostrando un aviso si no lo es. Durante la partida, en cada intento el programa debe indicar si el número buscado es mayor o menor cuando el jugador falla, y si el jugador acierta debe ganar y volver al menú principal; si supera el número máximo de intentos según la dificultad, debe perder y volver igualmente al menú principal. Tanto si se gana como si se pierde, el programa debe pedir el nombre del jugador y guardar esa información junto con el resultado de la partida (y lo recomendable es guardar también modo, dificultad, intentos usados, número objetivo y fecha/hora) en un fichero Excel. La opción “Estadística” debe leer el Excel y mostrar los datos almacenados. Para obtener la máxima nota se valoran mejoras como ocultar el número introducido en modo 2 jugadores, ajustar la dificultad en función del rango del número a adivinar, permitir estadísticas filtradas por usuario u otras funcionalidades extra que mejoren la experiencia y el análisis.
